@@ -1,0 +1,104 @@
+/* 
+    Document   : layout
+    Created on : 27-Jun-2011, 00:33:05
+    Author     : Omar
+    Description:
+        Stargazr v.2.0 layout css styles
+*/
+
+body {
+    background: #fff url(img/gridbg.gif);
+    display: block !important;
+    margin: 18px 5%;
+}
+
+.branding {
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
+
+section[role="main"] {
+    border-bottom: 1px solid #08090A;
+    border-top: 1px solid #1B1E23;
+    padding-top: 16px;
+}
+
+.body-footer {
+    border-top: 1px solid #181B1F;
+    padding-top: 17px;
+    padding-bottom: 18px;
+}
+
+nav[role="navigation"] ul {
+    font-family: 'Expletus Sans', serif;
+    text-align: center;
+}
+nav[role="navigation"] a {
+    border: 1px solid #454e57;
+    -webkit-box-sizing : border-box;
+    -moz-box-sizing : border-box;
+    -o-box-sizing : border-box;
+    box-sizing : border-box;
+    display: inline-block;
+    margin-bottom: 6px;
+    padding: 5px 0;
+    width: 100%
+}
+nav[role="navigation"] a:hover {
+    color: #D43E15;
+}
+
+.blog-nav {
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+/*.main-content {
+    border-bottom: 1px solid #08090A;
+}
+*/
+.post,
+.post header {
+    -webkit-box-sizing : border-box;
+    -moz-box-sizing : border-box;
+    -o-box-sizing : border-box;
+    box-sizing : border-box;
+}
+.post {
+    border-bottom: 1px solid #08090B;
+    border-top: 1px solid #1B1E22;
+    padding: 15px 0 33px 0;
+}
+section[role="main"] article:first-of-type {
+    border-top: none;
+}
+.post header {
+    border-top: 1px solid #D43E15;
+    border-bottom: 1px solid #D43E15;
+    padding-bottom: 17px;
+}
+.post-title {
+    font-size: 18px; line-height: 18px;
+}
+.post-title span {
+    font-size: 12px;
+}
+.post p { margin-top: 18px; }
+
+.main-aside {
+    border-bottom: 1px solid #08090A;
+    border-top: 1px solid #181B1F;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.main-aside section {
+    margin-bottom: 18px;
+    padding: 0 18px;
+}
+.main-aside ul { padding-left: 18px; }
+.main-aside fieldset { border: none; }
+.main-aside legend { display: none; }
+
+.vcard { margin: 18px 0 17px 0; }
+.adr { padding-left: 9px; }
